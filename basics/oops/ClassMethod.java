@@ -1,6 +1,6 @@
 package basics.oops;
 import java.util.Scanner;
-public class classmethod 
+public class ClassMethod 
 {
 public static void main(String[] args) 
 {

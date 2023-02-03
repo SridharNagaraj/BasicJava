@@ -1,10 +1,9 @@
 package basics.oops;
-import java.util.Scanner;
 public class arraystask {
 
 	public static void main(String[] args) {
 		
-	Scanner tc=new Scanner(System.in);
+	
 	
 		// TODO Auto-generated method stub
 int numbers[]= {1,2,3,4,5,6,7,8,9,10};
