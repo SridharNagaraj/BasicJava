@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Switch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner Scanner =new Scanner(System.in);
+		
+		Scanner scanner =new Scanner(System.in);
 		System.out.println("Enter car name");
 		int cars = 4;
 		switch (cars) {
@@ -25,6 +25,6 @@ public class Switch {
 		    break;
 		  default:
 	}
-
+		scanner.close();
 	}
 }

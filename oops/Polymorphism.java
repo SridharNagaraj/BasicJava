@@ -1,4 +1,4 @@
-package inheritance;
+package oops;
 
 public class Polymorphism {
 

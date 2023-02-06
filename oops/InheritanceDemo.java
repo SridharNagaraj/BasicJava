@@ -1,7 +1,7 @@
-package inheritance;
+package oops;
 
 class InheritanceDemo{
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		Employee e1=new Employee("Sridhar", 10000);
 		Employee e2=new Employee("Manoj",12500);
 		System.out.println(e1.name+e1.raiseSalary(10));
@@ -30,7 +30,7 @@ class Manager{
 	}
 
 		int manager(int bonus){
-		int bonus1=bonus+salary;
+		int bonus1 = bonus + salary ;
 		return bonus1;
 		
 	}

@@ -1,10 +1,10 @@
 package basics.oops;
 
-public class arrays {
+public class Arrays {
 
 	public static void main(String[] args) {
 		
-		int a[]=new int[3];
+		int[] a=new int[3];
 		a[0]=25;
 		a[1]=30;
 		a[2]=45;

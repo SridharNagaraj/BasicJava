@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Signal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc=new Scanner(System.in);
 		
 		String traffic = sc.next();
@@ -16,11 +16,11 @@ public class Signal {
 			else if(traffic.equals("red")){
 				System.out.println("STOP");
 				}
-				else if(traffic==("yellow"))
+				else if(traffic.equals("yellow"))
 				 {
 				System.out.println("Ready");
 				}
-				
+				sc.close();
 				
 	}
 

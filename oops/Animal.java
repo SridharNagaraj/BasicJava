@@ -1,4 +1,4 @@
-package inheritance;
+package oops;
 
 public class Animal {
 			  public void animalSound() {
@@ -20,5 +20,5 @@ public class Animal {
 
 			
 			
-	}
+	 
 

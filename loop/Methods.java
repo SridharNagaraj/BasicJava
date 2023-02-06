@@ -1,6 +1,6 @@
 package basics.conditions;
 
-public class methods {
+public class Methods {
 
  int boxRectangle(int length, int width){
 	int rec;
@@ -9,8 +9,8 @@ public class methods {
 }
 	public static void main(String[] args)
 	{
-		methods md=new methods();
-		// TODO Auto-generated method stub
+		Methods md=new Methods();
+		
    int rec= md.boxRectangle(10,20);
    System.out.println(rec);
    System.out.println(mai());
@@ -19,7 +19,7 @@ public class methods {
 		static String mai()
 		{
 			System.out.println("hii");
-			String name="Bye";
+			String name= "Bye";
 			return name;
 		}
 }

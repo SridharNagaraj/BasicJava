@@ -2,7 +2,7 @@ package basics.conditions;
 
 import java.util.Scanner;
 
-public class traffic {
+public class Traffic {
 	public static void main(String[] args) 
 	{
 		Scanner sc =new Scanner(System.in);
@@ -19,6 +19,7 @@ public class traffic {
 			 System.out.println("Ready");
 			 break;
 		 }
+		 sc.close();
 		 
 	}
 
