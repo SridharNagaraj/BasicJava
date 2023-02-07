@@ -1,4 +1,4 @@
-package basics.basic;
+package basic;
 
 public class Continue {
 

@@ -1,4 +1,4 @@
-package basics.conditions;
+package loop;
 
 public class Methods {
 

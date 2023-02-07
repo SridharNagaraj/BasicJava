@@ -1,4 +1,4 @@
-package basics.basic;
+package basic;
 import java.util.Scanner;
 public class Switch {
 

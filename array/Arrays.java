@@ -1,4 +1,4 @@
-package basics.oops;
+package array;
 
 public class Arrays {
 

@@ -1,4 +1,4 @@
-package basics.oops;
+package array;
 public class Arraystask {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package basics.oops;
+package array;
 import java.util.Scanner;
 public class ClassMethod 
 {
