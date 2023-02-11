@@ -9,15 +9,17 @@ public class Task2 {
 				
 				value+=j;
 				sum+=j;
-				if(sum%2==0) {
+				if(j%2==0) {
 					System.out.println(sum);
 				}
+				
 				else
 				{
 					System.out.println(value);
 				}
+				System.out.println("");
 			}
-			System.out.println("");
+			
 		}
 	}
 
