@@ -3,25 +3,24 @@ package stringhandling;
 public class StringDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		StringDemo sd= new StringDemo();
-		String[] name= {"Sridhar, Manoj, Vicky, Thillai"};
-		sd.joinwords(name);
-
+		StringDemo sd=new StringDemo();
+		String[] names ={"Sridhar", "Thillai", "uthaya"};
+		sd.joinwords(names);
+	
 	}
+	
 
-	private void joinwords(String[] name) {
-		
+	private void joinwords(String[] names) {
 		// TODO Auto-generated method stub
-		String Sentence="";
-//		StringBuffer sb=new  StringBuffer("");
-//		sb.append("Raja")
-		for (String names: name) {
-			Sentence = Sentence +names;
-			System.out.println(Sentence);
-			
-		}
-		
+		//String sentence ="";
+	StringBuffer sb	=new StringBuffer("");
+	for(String name:names) {
+    sb.append(name);
+	//System.out.println("StringBuffer"+sb.hashCode());
+	//sentence=sentence+name;
+	//System.out.println("String"+sentence.hashCode());
+	System.out.println(name);
 	}
-
+	
 }
+} 
