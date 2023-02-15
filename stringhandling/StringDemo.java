@@ -11,16 +11,23 @@ public class StringDemo {
 	
 
 	private void joinwords(String[] names) {
-		// TODO Auto-generated method stub
+		
 		//String sentence ="";
 	StringBuffer sb	=new StringBuffer("");
 	for(String name:names) {
-    sb.append(name);
+    sb.append("naresh");
 	//System.out.println("StringBuffer"+sb.hashCode());
 	//sentence=sentence+name;
 	//System.out.println("String"+sentence.hashCode());
 	System.out.println(name);
 	}
-	
+	System.out.println(sb);
+	StringBuffer sb2 =new StringBuffer("nighil");
+	sb2.insert(1, 'k');
+	System.out.println(sb2);
+	sb2.replace(0, 1, "k");
+	System.out.println(sb2);
+	sb2.reverse();
+	System.out.println(sb2);
+	}
 }
-} 
