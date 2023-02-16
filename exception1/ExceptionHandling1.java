@@ -8,7 +8,7 @@ public class ExceptionHandling1 {
 		ExceptionHandling1 eh = new ExceptionHandling1();
 		try {
 			eh.divide();
-		} catch (Exception e) {
+		} catch (Exception e) {   
 			
 			System.out.println("no2 is zero. Please check the value.");
 			eh.divide();
